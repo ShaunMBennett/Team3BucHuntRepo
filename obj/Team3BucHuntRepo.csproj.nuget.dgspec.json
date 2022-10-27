@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dylan\\Source\\Repos\\Team3BucHuntRepo\\Team3BucHuntRepo.csproj": {}
+    "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\Team3BucHuntRepo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dylan\\Source\\Repos\\Team3BucHuntRepo\\Team3BucHuntRepo.csproj": {
+    "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\Team3BucHuntRepo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dylan\\Source\\Repos\\Team3BucHuntRepo\\Team3BucHuntRepo.csproj",
+        "projectUniqueName": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\Team3BucHuntRepo.csproj",
         "projectName": "Team3BucHuntRepo",
-        "projectPath": "C:\\Users\\dylan\\Source\\Repos\\Team3BucHuntRepo\\Team3BucHuntRepo.csproj",
+        "projectPath": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\Team3BucHuntRepo.csproj",
         "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dylan\\Source\\Repos\\Team3BucHuntRepo\\obj\\",
+        "outputPath": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
