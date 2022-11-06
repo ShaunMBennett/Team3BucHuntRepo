@@ -1,0 +1,68 @@
+﻿@page "/fetchdata"
+
+<PageTitle>BucHunt</PageTitle>
+
+
+@using team3.Data
+@inject WeatherForecastService ForecastService
+
+@inject IJSRuntime JSRuntime
+
+<h1>BucHunt</h1>
+<div class="container"> 
+    <div class ="row">
+        <div class= "col-md-6">
+            @if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Answers</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+        </div>
+          <div class= "col-md-6">  
+              <div id="map">
+
+
+              </div>
+          </div>
+
+    </div> 
+
+</div>
+
+@code {
+    private WeatherForecast[]? forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+    }
+}
+
+@code{ 
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender) 
+        {
+            await JSRuntime.InvokeVoidAsync("initialize", null);
+        }
+    } 
+}
