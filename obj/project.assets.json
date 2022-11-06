@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\phili\\.nuget\\packages\\": {}
+    "C:\\Users\\dylan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\phili\\source\\repos\\team3\\team3\\team3.csproj",
+      "projectUniqueName": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\team3.csproj",
       "projectName": "team3",
-      "projectPath": "C:\\Users\\phili\\source\\repos\\team3\\team3\\team3.csproj",
-      "packagesPath": "C:\\Users\\phili\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\phili\\source\\repos\\team3\\team3\\obj\\",
+      "projectPath": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\team3.csproj",
+      "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\phili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -63,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
