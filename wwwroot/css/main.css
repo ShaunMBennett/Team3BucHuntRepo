@@ -49,7 +49,8 @@ thead {
 
 table {
 	border: 1px solid black;
-  background-color: white;
+    background-color: white;
+    float: left;//shifts table to the left, breaks smaller screens
 }
 
 /*
