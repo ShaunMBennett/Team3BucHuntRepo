@@ -34,7 +34,7 @@ body {
 tr, td {
 	border: 1px solid black;
 	padding: 5px 10px;
-	width: 300px;
+	width: 300px;/*Makes table entries set to fixed size. Removing it will make it more dynamic*/
 }
 
 th {
@@ -50,7 +50,7 @@ thead {
 table {
 	border: 1px solid black;
     background-color: white;
-    float: left;//shifts table to the left, breaks smaller screens
+    float: left;//shifts table to the left
 }
 
 /*
