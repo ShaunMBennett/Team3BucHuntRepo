@@ -16,7 +16,7 @@ public class CodeGenerator
         {
             accessCode += letters[rand.Next(letters.Length)];
         }
-        // TODO: implement functionality to determine if the new codes are unique
+        // TODO: implement functionality to determine if codes are unique
         return accessCode;
     }
 }
