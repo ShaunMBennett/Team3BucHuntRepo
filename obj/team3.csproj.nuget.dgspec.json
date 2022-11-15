@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\team3.csproj": {}
+    "C:\\Users\\isaia\\Source\\Repos\\Team3BucHuntRepo\\team3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\team3.csproj": {
+    "C:\\Users\\isaia\\Source\\Repos\\Team3BucHuntRepo\\team3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\team3.csproj",
+        "projectUniqueName": "C:\\Users\\isaia\\Source\\Repos\\Team3BucHuntRepo\\team3.csproj",
         "projectName": "team3",
-        "projectPath": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\team3.csproj",
-        "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\obj\\",
+        "projectPath": "C:\\Users\\isaia\\Source\\Repos\\Team3BucHuntRepo\\team3.csproj",
+        "packagesPath": "C:\\Users\\isaia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\isaia\\Source\\Repos\\Team3BucHuntRepo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\isaia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
