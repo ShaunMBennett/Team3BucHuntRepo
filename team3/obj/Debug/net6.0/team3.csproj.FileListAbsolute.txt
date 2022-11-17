@@ -1,0 +1,54 @@
+C:\Users\phili\source\repos\team3\team3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\phili\source\repos\team3\team3\bin\Debug\net6.0\appsettings.json
+C:\Users\phili\source\repos\team3\team3\bin\Debug\net6.0\team3.staticwebassets.runtime.json
+C:\Users\phili\source\repos\team3\team3\bin\Debug\net6.0\team3.exe
+C:\Users\phili\source\repos\team3\team3\bin\Debug\net6.0\team3.deps.json
+C:\Users\phili\source\repos\team3\team3\bin\Debug\net6.0\team3.runtimeconfig.json
+C:\Users\phili\source\repos\team3\team3\bin\Debug\net6.0\team3.dll
+C:\Users\phili\source\repos\team3\team3\bin\Debug\net6.0\team3.pdb
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\team3.csproj.AssemblyReference.cache
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\team3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\team3.AssemblyInfoInputs.cache
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\team3.AssemblyInfo.cs
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\team3.csproj.CoreCompileInputs.cache
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\team3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\team3.RazorAssemblyInfo.cache
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\team3.RazorAssemblyInfo.cs
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\scopedcss\bundle\team3.styles.css
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\scopedcss\projectbundle\team3.bundle.scp.css
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\team3.dll
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\refint\team3.dll
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\team3.pdb
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\team3.genruntimeconfig.cache
+C:\Users\phili\source\repos\team3\team3\obj\Debug\net6.0\ref\team3.dll
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\bin\Debug\net6.0\appsettings.json
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\bin\Debug\net6.0\team3.staticwebassets.runtime.json
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\bin\Debug\net6.0\team3.exe
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\bin\Debug\net6.0\team3.deps.json
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\bin\Debug\net6.0\team3.runtimeconfig.json
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\bin\Debug\net6.0\team3.dll
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\bin\Debug\net6.0\team3.pdb
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\team3.csproj.AssemblyReference.cache
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\team3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\team3.AssemblyInfoInputs.cache
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\team3.AssemblyInfo.cs
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\team3.csproj.CoreCompileInputs.cache
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\team3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\team3.RazorAssemblyInfo.cache
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\team3.RazorAssemblyInfo.cs
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\scopedcss\bundle\team3.styles.css
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\scopedcss\projectbundle\team3.bundle.scp.css
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\team3.dll
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\refint\team3.dll
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\team3.pdb
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\team3.genruntimeconfig.cache
+C:\Users\shaun\Downloads\team3 (2)\team3\team3\obj\Debug\net6.0\ref\team3.dll
