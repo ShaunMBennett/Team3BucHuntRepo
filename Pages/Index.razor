@@ -6,9 +6,11 @@
       This access code will then be first verified to ensure it is a valid access code and then checked against the database to ensure the access code is present within the buchunt table
 -->
 @page "/"
-@inject NavigationManager NavManager
-@using System.Text.RegularExpressions
 @using team3.Data
+@using team3.Interfaces
+@using System.Text.RegularExpressions
+@inject IPhoneNumbersService phoneNumberService
+@inject NavigationManager NavManager
 <PageTitle>Access Page</PageTitle>
 
 <head>
@@ -38,27 +40,46 @@
 </div>
 
 
-@code{ 
+@code{
     AccessPage x = new AccessPage();
 
     EditContext context;
 
+    int counter;
+
+
+
     protected override Task OnInitializedAsync()
     {
         context = new EditContext(x);
+
         return base.OnInitializedAsync();
     }
 
     bool displayValidationErrorMessages = false;
 
-    private void SubmitEventHandler(EditContext context)
+    protected async Task CheckAgainstDB(string code)
     {
- 
+        counter = await phoneNumberService.Count(code);
+    }
+
+    private async Task SubmitEventHandler(EditContext context)
+    {
+
         if (context.Validate())
         {
-           
-            NavManager.NavigateTo("/counter");
+            await CheckAgainstDB(x.accessCode);
+            if(counter > 0)
+            {
+                NavManager.NavigateTo("/counter");
+            }
+            else
+            {
+                
+            }
         }
     }
+
+
     
 }

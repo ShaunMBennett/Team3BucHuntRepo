@@ -6,8 +6,15 @@ Last Modified: 11/16/2022
 Summary: Create and populate Tasks table for BucHunt
 *****************************************************/
 
+--Create database
+CREATE DATABASE [HuntDB]
+GO
+
+USE [HuntDB]
+GO
 -- Drop existing table
 DROP TABLE Tasks;
+DROP TABLE PhoneNumbers;
 
 -- Create table to contain task info (TaskID, Location, Question, Answer)
 CREATE TABLE Tasks
@@ -82,4 +89,43 @@ INSERT INTO Tasks (Location, Question, Answer)
 -- Test to ensure all tasks are in table
 -- SELECT * FROM Tasks;
 
+-- Create table to contain phone number info (UserID, PhoneNumber)
+CREATE TABLE PhoneNumbers
+(
+	UserID int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	PhoneNumber varchar(20)
+);
 
+-- The following insertions are test phone numbers for us to test the database against
+INSERT INTO PhoneNumbers(PhoneNumber)
+	VALUES('4233303513');
+
+INSERT INTO PhoneNumbers(PhoneNumber)
+	VALUES('0123456789');
+
+INSERT INTO PhoneNumbers(PhoneNumber)
+	VALUES('5295829384');
+
+
+
+	USE [HuntDB]
+GO
+
+CREATE PROCEDURE [spAddPhoneNumber]
+	@PhoneNumber varchar(20) AS
+	BEGIN
+		DECLARE @UserID as Int;
+		INSERT INTO PhoneNumbers(PhoneNumber)
+		VALUES (@PhoneNumber);
+		SET @UserID = SCOPE_IDENTITY();
+		SELECT @UserID AS pubID;
+	END
+GO
+
+CREATE PROCEDURE [spUpdatePhoneNumber]
+	@UserID		 Int,
+	@PhoneNumber varchar(20)
+	AS
+		UPDATE PhoneNumbers
+		SET [PhoneNumber] = @PhoneNumber
+		WHERE [UserID] = @UserID

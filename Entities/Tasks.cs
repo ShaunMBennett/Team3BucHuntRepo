@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace team3.Data;
+namespace team3.Entities;
 
 public class Tasks
 {
-    [Required]
+    [Key]
     public int Id { get; set; }
     [Required]
     public string Location { get; set; } = string.Empty;

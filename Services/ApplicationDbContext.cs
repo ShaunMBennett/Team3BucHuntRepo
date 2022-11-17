@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using team3.Data;
+using team3.Entities;
 
 namespace team3.Services;
 

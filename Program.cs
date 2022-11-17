@@ -1,6 +1,15 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Microsoft.EntityFrameworkCore;
+using System.Data;
+using System.Data.Common;
+using Dapper;
+using System.Collections.Generic;
+using team3;
 using team3.Data;
+using team3.Interfaces;
+using BookApp.Data;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +17,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
-
+builder.Services.AddDbContext<team3.Data.AppContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IPhoneNumbersService, PhoneNumberService>();
+builder.Services.AddScoped<IDapperService, DapperService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
