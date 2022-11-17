@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "te1/ThjeOa+csfUOdufJMrJbO3mi10hoTd7GFvsOdf8=",
+  "Hash": "wgK/GuyAU4R1ToM2zvsQXp5ASVfh1riNr1N595kL3w8=",
   "Source": "team3",
   "BasePath": "_content/team3",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "team3\\wwwroot",
       "Source": "team3",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\team3.styles.css",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\team3.styles.css",
       "SourceId": "team3",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/team3",
       "RelativePath": "team3.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\team3.styles.css"
+      "OriginalItemSpec": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\team3.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\team3.bundle.scp.css",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\team3.bundle.scp.css",
       "SourceId": "team3",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/team3",
       "RelativePath": "team3.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\team3.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\team3.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\main.css",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\main.css",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/main.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\css\\site.css",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\favicon.ico",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\main.js",
+      "Identity": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\main.js",
       "SourceId": "team3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Joshua\\Documents\\GitHub\\Team3BucHuntRepo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\dylan\\source\\repos\\Team3BucHuntRepo\\wwwroot\\",
       "BasePath": "_content/team3",
       "RelativePath": "main.js",
       "AssetKind": "All",
