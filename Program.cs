@@ -1,7 +1,4 @@
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
 using Microsoft.EntityFrameworkCore;
-using team3.Data;
 using team3.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,13 +6,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
+builder.Services.AddDbContext<ApplicationDbContext>(options => // Establishes connection to local database
       options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddScoped<Initializer>();
+builder.Services.AddScoped<Initializer>(); // Accesses initializer to run seed methods
 
 var app = builder.Build();
-SeedData(app);
+SeedData(app); // Seeds database
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -36,6 +33,7 @@ app.MapFallbackToPage("/_Host");
 
 app.Run();
 
+// Method to seed the database with placeholder tasks.
 static void SeedData(WebApplication app)
 {
     using var scope = app.Services.CreateScope();

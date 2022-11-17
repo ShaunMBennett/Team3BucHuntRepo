@@ -11,7 +11,7 @@ using team3.Services;
 namespace team3.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221115151101_Mig01")]
+    [Migration("20221117155606_Mig01")]
     partial class Mig01
     {
         /// <inheritdoc />

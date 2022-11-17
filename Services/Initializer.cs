@@ -13,15 +13,15 @@ public class Initializer
     {
         _db = db;
     }
-    
+
     public void SeedDatabase()
     {
         _db.Database.EnsureCreated();
 
-        // If there are any students then assume the database is already
+        // If there is any data, then assume the database is already
         // seeded.
         if (_db.TaskList.Any()) return;
-        
+
         var tasks = new List<Tasks>
         {
            new Tasks
