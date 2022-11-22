@@ -1,3 +1,12 @@
+/*
+
+
+
+
+
+
+*/
+
 :root {
     --primary: #041E42;
     --secondary: #FFC72C;
@@ -34,7 +43,7 @@ body {
 tr, td {
 	border: 1px solid black;
 	padding: 5px 10px;
-	width: 300px;/*Makes table entries set to fixed size. Removing it will make it more dynamic*/
+	width: 300px;
 }
 
 th {
@@ -49,8 +58,7 @@ thead {
 
 table {
 	border: 1px solid black;
-    background-color: white;
-    float: left;//shifts table to the left
+  background-color: white;
 }
 
 /*
@@ -81,27 +89,48 @@ tbody tr:nth-child(odd) {
 	transform: translate(50%,-50%);
   }
 
-input[type='submit'] {
+button[type='submit'] {
     display: block;
     margin: 20px auto;
     width: 150px;
     height: 40px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: #FFC72C;
     background: #041E42;
     border-radius: 50px;
     border: 0.5px solid #FFC72C;
 }
 
-input[type='password'] {
+button[type='submit']:hover {
+    transition:.2s;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: var(--secondary);
+}
+
+input[type='text'] {
     display: block;
-    margin: 20px auto;
     width: 250px;
     height: 40px;
     font-size: 1rem;
+    position: absolute;
+    top: 44%;
+    right: 50%;
+    transform: translate(50%, -50%);
     padding: 5px;
 }
+input[type='text']::placeholder {
+    text-align:center;
+}
+    .pw {
+        background-color: var(--secondary);
+    }
 
-.pw {
-  background-color: var(--secondary);
+.validation-message {
+    color: #FFC72C;
+    position: absolute;
+    top: 107%;
+    right: 50%;
+    font-size: 12px;
+    transform: translate(50%, -50%);
 }
