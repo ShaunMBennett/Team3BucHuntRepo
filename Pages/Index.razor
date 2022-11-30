@@ -58,11 +58,23 @@
 
     bool displayValidationErrorMessages = false;
 
+    /// <summary>
+    /// This method makes a call to the phoneNumberService class asking it to count the number of rows in the phonenumber table that are equal to the phone number entered
+    /// Nothing is returned by this method, however the variable counter is set equal to the number of rows that are equal
+    /// </summary>
+    /// <param name="code"></param>
+    /// <returns></returns>
     protected async Task CheckAgainstDB(string code)
     {
         counter = await phoneNumberService.Count(code);
     }
 
+    /// <summary>
+    ///This handles a button click event
+    ///In the event that the button is clicked blazor first checks against the requiremetns set in AccessPage.cs
+    ///If those requirements are fulfilled then the valid phone number in the text box is checked against the phonenumber table in the databse
+    /// </summary>
+    /// <param name="context"></param>
     private async Task SubmitEventHandler(EditContext context)
     {
 

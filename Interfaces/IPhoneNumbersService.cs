@@ -4,6 +4,10 @@ using System.Threading.Tasks;
 
 namespace team3.Interfaces
 {
+    /// <summary>
+    /// Isaiah Jayne
+    /// These are methods that are used by our solution to access the PhoneNumber Table in our database
+    /// </summary>
     public interface IPhoneNumbersService
     {
         Task<int> Create(PhoneNumber pN);

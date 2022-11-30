@@ -6,6 +6,11 @@ using System.Data.Common;
 
 namespace team3.Interfaces
 {
+    /// <summary>
+    /// Isaiah Jayne
+    /// Dapper is the plugin that we used to get SQLExpress to work with our solution
+    /// Not entirely sure how all of this ties in
+    /// </summary>
     public interface IDapperService : IDisposable
     {
         DbConnection GetConnection();
