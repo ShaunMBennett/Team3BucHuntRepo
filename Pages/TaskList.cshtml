@@ -1,0 +1,53 @@
+﻿@model IEnumerable<team3.Data.Tasks>
+
+@{
+    ViewData["Title"] = "Buc Hunt";
+}
+
+<!--
+    Dylan Shaffer
+    -------------
+    View page to display tasks from database.
+    Created because code was not working on razor page.
+-->
+
+<h1>Buc Hunt</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Question)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Answer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody> <!-- Foreach loop goes through database and displays all tasks -->
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="width:15%">
+                    @Html.DisplayFor(modelItem => item.TaskID)
+                </td>
+                <td style="width:50%">
+                    @Html.DisplayFor(modelItem => item.Question)
+                </td>
+                <td style="width:15%">
+                    @Html.DisplayFor(modelItem => item.Answer)
+                </td>
+                <td style="width:15%">
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
