@@ -8,6 +8,7 @@
     Dylan Shaffer
     -------------
     View page to display tasks from database.
+    Created because code was not working on razor page.
 -->
 
 <h1>Buc Hunt</h1>
@@ -30,7 +31,7 @@
             <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody> <!-- Foreach loop goes through database and displays all tasks -->
         @foreach (var item in Model)
         {
             <tr>
